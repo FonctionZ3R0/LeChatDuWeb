@@ -1,5 +1,5 @@
 import React from 'react';
-import './History.css'
+import './history.css'
 
 const History = (props) => {
 

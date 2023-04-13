@@ -1,26 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .container {
-    flex-direction: 'row';
-    align-items: 'center';
-    justify-content: 'center';
-    background-color: 'black';
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
 }
 .input {
     flex: 1;
-    border-width: 1;
-    border-color: 'gray';
-    border-radius: 5;
-    padding: 10;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 5px;
+    padding: 10px;
 }
 .send {
-    background-color: '#3770CC';
-    border-width: 1;
-    border-radius: 5;
-    padding-top: 5;
-    padding-bottom: 5;
-    padding-left: 6;
-    padding-right: 6;
+    background-color: #3770CC;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
-.image {
-    width: 40;
-    height: 40;
+.btn {
+    background-image: url('/public/question.png'); 
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-radius: 5px;
 }

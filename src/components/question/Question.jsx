@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Configuration, OpenAIApi } from 'openai'
+import './question.css'
 
 const Question = ({history, handleUpdateHistory}) => {
 
@@ -47,8 +48,7 @@ const Question = ({history, handleUpdateHistory}) => {
   return (
     <div className="container">
       <input className="input" onChange={(event) => setQuestion(event.target.value)} value={question} placeholder="Hmmm..."/>
-      <button onClick={handleApiRequest} className={`send ${!isTouchable || question == '' ? 'disabled' : ''}`} disabled={!isTouchable || question == ''}>
-        <img src={require('../../assets/question.png').default} alt="Send" className="image"/>
+      <button className="btn" alt="Send" onClick={handleApiRequest} disabled={!isTouchable || question == ''}>
       </button>
     </div>
   )

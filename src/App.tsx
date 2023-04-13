@@ -17,8 +17,8 @@ function App(): JSX.Element {
 
   // placer une div qui englobe history pour mettre deux bandes noires sur les côtés
   return (
-    <div className="container">
-      <div className="background">
+    <div className="container h-full mt-5">
+      <div className="background h-full">
         <History history={history}/>
       </div>
       <Question history={history} handleUpdateHistory={handleUpdateHistory}/>
