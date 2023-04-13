@@ -1,0 +1,74 @@
+.iaBubble {
+    background-color: "#3b3b3b";
+    padding:10;
+    border-radius: 13;
+    margin-bottom: 5;
+    margin-top: 5;
+    margin-left: "5%";
+    max-width: '70%';
+    align-self: 'flex-start';
+}
+
+.myBubble {
+    background-color: "#3770CC";
+    padding:10;
+    border-radius: 13;
+    margin-top: 5;
+    margin-right: "5%";
+    max-width: '70%';
+    align-self: 'flex-end';
+    margin-bottom: 5;
+}
+
+.iaText {
+    font-size: 16;
+    color: "#fff";
+    justify-content:"center";
+}
+
+.myText {
+    font-size: 16,;
+    color: "#fff";
+    justify-content: "center";
+}
+
+.rightArrow {
+    position: "absolute";
+    background-color: "#3770CC";
+    width: 20;
+    height: 25;
+    bottom: 0;
+    border-bottom-left-radius: 25;
+    right: -10;
+}
+
+.rightArrowOverlap {
+    position: "absolute";
+    background-color: "#000";
+    width: 20;
+    height: 35;
+    bottom: -6;
+    border-bottom-left-radius: 18;
+    right: -20
+}
+
+.leftArrow {
+    position: "absolute";
+    background-color: "#3b3b3b";
+    width: 20;
+    height: 25;
+    bottom: 0;
+    border-bottom-right-radius: 25;
+    left: -10
+}
+
+.leftArrowOverlap {
+    position: "absolute";
+    opacity: 1;
+    background-color: "#000";
+    width: 20;
+    height: 35;
+    bottom: -6;
+    border-bottom-right-radius: 18;
+    left: -20
+}
